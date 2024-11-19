@@ -7,6 +7,10 @@ body {
 
 /* regole header */
 
-.scritta-logo {
-    font-size: 100px;
+header {
+    background-color: rgb(247, 242, 242);
+}
+
+#scritta-logo {
+    font-size: 40px;
 }
