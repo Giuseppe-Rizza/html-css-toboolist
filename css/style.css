@@ -4,6 +4,10 @@ body {
     background-color: rgb(230, 227, 227);
 }
 
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
 
 /* regole header */
 
@@ -11,6 +15,23 @@ header {
     background-color: rgb(247, 242, 242);
 }
 
+#visual-logo {
+    line-height: 100%;
+    vertical-align: middle;
+}
+
 #scritta-logo {
     font-size: 40px;
+    line-height: 100%;
+    vertical-align: middle;
+}
+
+/* regole contenuto principale */
+
+#button {
+margin-top: 50px;
+border-radius: 9999px;
+font-size: 10px;
+line-height: 100%;
+vertical-align: middle;
 }
