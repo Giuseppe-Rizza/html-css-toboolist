@@ -10,15 +10,11 @@ body {
     background-color: rgb(230, 227, 227);
 }
 
-.container {
-    width: 70%;
-    margin: 0 auto;
-}
-
 /* regole header */
 
 header {
     background-color: rgb(247, 242, 242);
+    padding: 10px 30px;
 }
 
 #visual-logo {
@@ -28,16 +24,63 @@ header {
 
 #scritta-logo {
     font-size: 40px;
+    font-weight: bold;
     line-height: 100%;
     vertical-align: middle;
 }
 
 /* regole contenuto principale */
 
-#button {
-margin-top: 50px;
-border-radius: 9999px;
+#container {
+    background-color: rgb(247, 242, 242);
+    width: 70%;
+    margin: 40px auto;
+    padding: 15px 50px;
+}
+
+.buttons {
+margin-bottom: 40px;
+}
+
+.add-task {
+background-color: rgb(38, 153, 219);
+color: white;
+padding: 10px;
+border-radius: 10px;
+height: 40px;
+border: none;
+}
+
+.add-section {
+background-color: white);
+color: gray;
+padding: 10px;
+border-radius: 10px;
+height: 40px;
+border: 2px solid gray;
+}
+
+.titles {
+    font-size: 14px;
+    margin-right: 5px;
+    line-height: 100%;
+    vertical-align: middle;
+}
+
+.green-tick::before {
 font-size: 10px;
-line-height: 100%;
-vertical-align: middle;
+content: "\2713";
+color: green;
+border: 1px solid green;
+padding: 3px 3px;
+border-radius: 9999px;
+}
+
+.red-cross::before {
+font-size: 10px;
+content: "&#9747";
+color: red;
+border: 1px solid red;
+padding: 3px 3px;
+border-radius: 9999px;    
 }
